@@ -1,5 +1,4 @@
 import "./App.css";
-import StackUI from "./components/StackUI";
 // import TypographyUI from "./components/TypographyUI";
 // import ButtonUI from "./components/ButtonUI";
 // import TextFieldUI from "./components/TextFieldUI";
@@ -7,6 +6,9 @@ import StackUI from "./components/StackUI";
 // import RadioUI from "./components/RadioUI";
 // import CheckboxUI from "./components/CheckboxUI";
 // import BoxUI from "./components/BoxUI";
+// import StackUI from "./components/StackUI";
+import GridUI from "./components/GridUI";
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +19,8 @@ function App() {
       {/* <RadioUI /> */}
       {/* <CheckboxUI /> */}
       {/* <BoxUI /> */}
-      <StackUI />
+      {/* <StackUI /> */}
+      <GridUI />
     </div>
   );
 }
