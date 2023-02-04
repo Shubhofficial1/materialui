@@ -2,7 +2,8 @@ import "./App.css";
 // import TypographyUI from "./components/TypographyUI";
 // import ButtonUI from "./components/ButtonUI";
 // import TextFieldUI from "./components/TextFieldUI";
-import SelectUI from "./components/SelectUI";
+// import SelectUI from "./components/SelectUI";
+import RadioUI from "./components/RadioUI";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <TypographyUI /> */}
       {/* <ButtonUI /> */}
       {/* <TextFieldUI /> */}
-      <SelectUI />
+      {/* <SelectUI /> */}
+      <RadioUI />
     </div>
   );
 }
