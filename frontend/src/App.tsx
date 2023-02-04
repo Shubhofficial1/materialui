@@ -5,7 +5,7 @@ import "./App.css";
 // import SelectUI from "./components/SelectUI";
 // import RadioUI from "./components/RadioUI";
 import CheckboxUI from "./components/CheckboxUI";
-
+import BoxUI from "./components/BoxUI";
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,8 @@ function App() {
       {/* <TextFieldUI /> */}
       {/* <SelectUI /> */}
       {/* <RadioUI /> */}
-      <CheckboxUI />
+      {/* <CheckboxUI /> */}
+      <BoxUI />
     </div>
   );
 }
