@@ -3,7 +3,8 @@ import "./App.css";
 // import ButtonUI from "./components/ButtonUI";
 // import TextFieldUI from "./components/TextFieldUI";
 // import SelectUI from "./components/SelectUI";
-import RadioUI from "./components/RadioUI";
+// import RadioUI from "./components/RadioUI";
+import CheckboxUI from "./components/CheckboxUI";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <ButtonUI /> */}
       {/* <TextFieldUI /> */}
       {/* <SelectUI /> */}
-      <RadioUI />
+      {/* <RadioUI /> */}
+      <CheckboxUI />
     </div>
   );
 }
